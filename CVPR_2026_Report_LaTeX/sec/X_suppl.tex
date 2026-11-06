@@ -1,0 +1,20 @@
+\clearpage
+\onecolumn
+\appendix
+\section{Appendix: Complete Source Code \& Project GitHub Repository}
+\label{sec:appendix}
+
+\noindent\textbf{Project GitHub Repository:} \url{https://github.com/SoumyajitHalder/EE604-Cricket-Shot-Recognition}\\[4pt]
+Below we provide the core implementation modules of our unified framework:
+(1)~the 6-stage Classical Image Processing pipeline (\texttt{ip\_pipeline.py}),
+(2)~the Gated Cross-Modal Attention and Spatio-Temporal Fusion architectures (\texttt{model.py}), and
+(3)~the Pose-Guided Viterbi Striker Tracker and Impact-Aligned Dual-GRU Fusion module (\texttt{csr\_infer.py}).
+
+\subsection{Module 1: 6-Stage Classical Image Processing Pipeline (\texttt{src/ip\_pipeline.py})}
+\lstinputlisting[language=Python]{ip_pipeline.py}
+
+\subsection{Module 2: Cross-Modal Gated Attention \& Fusion Network (\texttt{src/model.py})}
+\lstinputlisting[language=Python]{model.py}
+
+\subsection{Module 3: Pose-Guided Dual-GRU \& Impact Phase Alignment (\texttt{src/csr\_infer.py})}
+\lstinputlisting[language=Python]{csr_infer.py}
